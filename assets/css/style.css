@@ -1,0 +1,314 @@
+/* Monstserrat Font Import */
+@import url('https://fonts.googleapis.com/css?family=Monstserrat:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/* Permanent Marker Font Import */
+@import url('https://fonts.googleapis.com/css?family=Permanent Marker:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/* NAVIGATION */
+
+nav {
+    font-size: large;
+    font-weight: 700;
+}
+
+.navbar-nav 
+.dropdown-menu {
+    background-color: #dc2140;
+}
+
+.navbar-brand {
+    font-family: "Permanent Marker", cursive;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* Main Heading */
+.services-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    padding: 0;
+    margin-bottom: 0;
+    backdrop-filter: blur(1px);
+}
+
+/* --- Body ----- */
+body {
+    background-color: black;
+}
+
+.callout-container {
+    min-height: 100%;
+    max-height: fit-content;
+    background: url('../images/mainBackground.jpg') no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 10rem;
+}
+
+.container-fluid {
+    padding: 1rem;
+}
+
+/*---------- Common Classes ---------*/
+.main-page {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    backdrop-filter: blur(1px);
+}
+
+h1, 
+h2,
+h4 {
+    font-family: "Permanent Marker", cursive;
+}
+
+h3,
+h5,
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn-stk-red {
+    background-color: #dc2140;
+    font-weight: bold;
+    color: #bdc9c9;
+}
+
+.main-socials {
+    font-size: 3.5em;
+}
+
+.main-socials h4 {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.main-socials a {
+    color: #bdc9c9;
+    text-decoration: none;
+}
+
+.main-socials a:hover {
+    color: #dc2140;
+}
+
+.main-socials a i:hover {
+    color: #dc2140;
+}
+
+.color-spotify {
+    color: #1DB954;
+}
+
+.color-apple {
+    color: white;
+}
+
+.color-soundcloud {
+    color: #ff7700;
+}
+
+
+/* ------ FAQ --------- */
+.faq-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    backdrop-filter: blur(1px);
+}
+
+
+/* Artist Page */
+
+.artist-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    backdrop-filter: blur(2px);
+}
+
+.problems-album a i:hover {
+    color: #dc2140;
+}
+
+.problems-album img {
+        
+    min-width: 80%;
+    max-width: 18rem;
+    border: 2px solid #bdc9c9;
+}
+
+.problems-album {
+    margin-top: 1rem;
+}
+
+.problems-album a {
+    font-size: xx-large;
+}
+
+.problems-album iframe {
+        max-width: fit-content;
+        border: 2px solid #bdc9c9;
+    }
+
+.about h4 {
+    padding: 2rem;
+}
+
+.about p {
+    padding-top: 2rem;
+}
+
+/*------Footer --------*/
+.footer-wrap {
+    background-color: rgba(0, 0, 0, 0.3);
+    background: url(../images/footerBackground.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-top: 3px solid #bdc9c9;
+}
+
+.connect {
+    padding-top: 1rem;
+    color: #dc2140;
+    font-family: "Permanent Marker", cursive;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+    color: #dc2140;
+}
+
+.social a i:hover {
+    color: #bdc9c9;
+}
+
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    backdrop-filter: blur(2px);
+}
+
+footer {
+    background-color: black;
+    color: grey;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+footer a {
+    color: grey;
+    
+}
+
+.bg-transparent {
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+
+/*----- Media Queries -----*/
+
+@media(max-width: 992px) {
+    .social a {
+    font-size: 4em;
+    padding: 2rem;
+}
+}
+
+@media(max-width: 768px) {
+    .problems-album img {
+        min-width: 60%;
+        max-width: 90%;
+}
+    .problems-album iframe {
+        max-width: 90%;
+    }
+}
+
+@media(max-width: 576px) {
+.callout-container {
+        min-height: 100%;
+        max-height: fit-content;
+        background-image: url('../images/mic.jpg');
+        background-position: center;
+        position: relative;
+    }
+
+    .main-socials h4 {
+    font-size: 1.1rem;
+    padding-top: 2.9rem;
+}
+    .social a {
+    font-size: 2.3em;
+    padding: 0.8rem;
+}
+
+.container-fluid {
+    padding: 0.5rem;
+}
+
+.about h4 {
+    padding: 0.5rem;
+}
+
+.about p {
+    padding-top: 1rem;
+}
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.problems-album img {
+        min-width: 75%;
+        max-width: 95%;
+        margin-bottom: 2rem;
+}
+
+.main-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    backdrop-filter: blur(1px);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.problems-album iframe {
+    max-width: 70%;
+}
+
+}

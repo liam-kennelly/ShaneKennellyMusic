@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Font Awesome Style Sheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shane Kennelly Music</title>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <!-- Personal Style Sheet -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+</head>
+
+<body>
+    <!-- Start of Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #bd1c37;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="fa fa-headphones" aria-hidden="true"></i>
+                &nbsp;&nbsp;Shane Kennelly Music
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="itzShane.html" id="artistNavbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Itz Shane
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="artistNavbarDropdown">
+                            <li>
+                                <a class="dropdown-item"
+                                    href="https://open.spotify.com/artist/1rflhERDZf5JglaD3nWtSd?si=u-EJMC1MQCCkKSjwG8FJaw"
+                                    target="_blank">
+                                    &nbsp;<i class="fa fa-spotify color-spotify" aria-hidden="true"></i>
+                                    &nbsp;
+                                    &nbsp;
+                                    Spotify
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://music.apple.com/ca/artist/itz-shane/1495681882"
+                                    target="_blank">
+                                    &nbsp;<i class="fa fa-apple color-apple-dark" aria-hidden="true"></i>
+                                    &nbsp;
+                                    &nbsp;
+                                    Apple Music
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://soundcloud.com/shane-kennelly" target="_blank">
+                                    <i class="fa fa-soundcloud color-soundcloud" aria-hidden="true"></i>
+                                    &nbsp;
+                                    Soundcloud
+                                </a>
+                            </li>
+                            <li class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="itzShane.html">Artist Profile</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Music Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="services.html">
+                                    Mixing
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html">
+                                    Mastering
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html">
+                                    Recording
+                                </a>
+                            </li>
+                            <li class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item" href="contact.html">
+                                    Request a Feature
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navigation -->
+
+
+
+
+    <!-- Start of callout container -->
+    <div class="container-fluid callout-container">
+        <!-- start of contact section -->
+        <section class="row container-fluid contact">
+            <div class="col-12 jumbotron">
+                <h1 class="display-4 text-center">Contact</h1>
+                <hr class="my-4">
+                <!-- Start of form -->
+                <form class="row g-3" action="https://mailthis.to/lkennelly" method="POST">
+                    <!-- Start of first name -->
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" name="name" class="form-control" id="firstName" value="" placeholder="First Name"
+                            required>
+                    </div>
+                    <!-- End of first name -->
+                    <!-- Start of Last name -->
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" name="name" class="form-control" id="lastName" value="" placeholder="Last Name" required>
+                    </div>
+                    <!-- End of Last Name -->
+                    <!-- Start of Email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" name="_replyto" class="form-control" id="email" placeholder="name@example.com" required>
+                    </div>
+                    <!-- End of Email -->
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Optional">
+                    </div>
+                    <!-- Start of service option box -->
+                    <div class="mb-3">
+                        <label for="option" class="form-label">What Service are you looking for?</label>
+                        <select class="form-select" name="message" aria-label="option" id="option" required>
+                            <option value="">Select a Service</option>
+                            <option value="mix">Mixing</option>
+                            <option value="master">Mastering</option>
+                            <option value="mix and master">Mix and Master</option>
+                            <option value="recording">Recording Time</option>
+                            <option value="feature">Feature Itz Shane in your Music</option>
+                        </select>
+                    </div>
+                    <!-- End of service option box -->
+                    <!-- Start of project description -->
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Tell me a bit more about your project</label>
+                        <textarea class="form-control" name="message" id="description" rows="3"></textarea>
+                    </div>
+                    <!-- End of Project description -->
+                    <div class="mb-3 text-center">
+                        <button type="submit" class="btn btn-stk-red">Submit</button>
+                    </div>
+                </form>
+                <!-- End of Form -->
+            </div>
+        </section>
+        <!-- End of contact section -->
+    </div>
+    <!-- End of callout contianer -->
+
+
+
+
+
+
+
+
+    <!-- Start of Overall Footer section with bg image -->
+    <section class="footer-wrap row">
+        <!-- Start of Connect Div -->
+        <div class="col-12 container-fluid padding connect">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h2>Connect</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="https://open.spotify.com/artist/1rflhERDZf5JglaD3nWtSd?si=u-EJMC1MQCCkKSjwG8FJaw"
+                        target="_blank"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+                    <a href="https://music.apple.com/ca/artist/itz-shane/1495681882" target="_blank"><i
+                            class="fa fa-apple" aria-hidden="true"></i></a>
+                    <a href="https://soundcloud.com/shane-kennelly" target="_blank"><i class="fa fa-soundcloud"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/itzshaneofficial/" target="_blank"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.snapchat.com/add/kennelly-18" target="_blank"><i class="fa fa-snapchat"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- End of Connect Div -->
+
+        <!-- Start of Footer -->
+        <footer class="container-fluid bg-transparent footer-text col-12">
+            <div id="footer-details" class="row">
+                <div class="col-md-6">
+                    <h5 class="uppercase general-sub">©2021 Shane Kennelly Music</h5>
+                    <p class="inline-block">
+                        ShaneKennelly18@yahoo.com
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="uppercase general-sub">Want to work together?</h5>
+                    <p class="inline-block">
+                        <a href="contact.html" class="btn btn-stk-red btn-sm">
+                            Fill in the contact form to get in touch.
+                            <span class="sr-only">Contact</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer -->
+    </section>
+    <!-- End of Overall Footer section with bg image -->
+</body>
+
+</html>
